@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14th July Assignment - Day1</title>
+</head>
+<body>
+
+    <h1>Question 1:</h1>
+    <h2>Explore and explain the various methods in console function. Explain them.</h2>
+    <h2>Answer:</h2>
+    <p><pre>
+    1. console.log() :
+        log() is basically used for printing any type of data into the console, be it a string, number, boolean, any type. It can even print calculations' output as well. ex. console.log(5+4) will print 9 in the console.
+
+    2. console.error() :
+        error() is used to print an error message as well as an error mark logo and the message comes in red color by default. Its used for testing. ex. console.error('An error');
+
+    3. console.warn() :
+        warn() is similar to error(), but it prints the message in yellow color by default and it warning logo is different than error()'s. Ex. console.warn('A warning');
+
+    4. console.clear() :
+        clear() is used to clear the console screen.
+
+    5. console.time() and console.timeEnd() :
+        These are used to print the time taken in executing some portion of code. they are placed above and below that code to be tested. ex.
+        console.time('test');
+            ...codes
+            ...functions
+        console.timeEnd('test');
+
+    6. console.table() :
+        table() is used to generate a table in the console. It requires an array or such object to be passed which can be represented as table.
+
+    7. console.count() :
+        count() gives the count for how many times a function ran for example in a loop.
+        
+    8. console.group() and console.groupEnd() :
+        similar to time() and timeEnd(), these are placed above and below the section of console functions which we want to group as a single section.
+        ex. 
+        console.group('simple'); 
+        console.warn('warning!'); 
+        console.error('error here'); 
+        console.log('vivi vini vici'); 
+        console.groupEnd('simple'); 
+        
+        console.log('new section'); 
+
+        </pre>
+    </p>
+    </br>
+
+    <h1>Question 2:</h1>
+    <h2>Write the difference between var, let and const with code examples.</h2>
+    <h2>Answer:</h2>
+    <p>
+    <pre>
+    var :
+    var is used to declare any variable. Its scope is always global and it can be re-declared and modified as well at any point of code.
+
+    let :
+    let is also used to declare variables but is better that var to be used. It is block scoped and it cant be re-declared within its scope but can be modified there.
+
+    const :
+    const is another keyword to declare variables. const has a constant property that means it cant be modified not it can be re-declared. Similar to let, const is also block scoped and can be accessed within its scope.
+    </pre>
+    </p>
+    </br>
+
+    <h1>Question 3:</h1>
+    <h2>Write a brief intro on available data types in Javascript.</h2>
+    <h2>Answer:</h2>
+    <p>
+    <pre>
+        There are 8 basic data types in JavaScript:
+
+        number : integer or floating-point, integers are limited by ±253.
+        bigint : for integer numbers of arbitrary length.
+        string : A string may have zero or more characters, there’s no separate single-character type.
+        boolean : true/false.
+        null : unknown values – a standalone type that has a single value null.
+        undefined : unassigned values – a standalone type that has a single value undefined.
+        object : more complex data structures.
+        symbol : unique identifiers.
+    
+    </pre>
+    </p>
+
+</body>
+</html>
