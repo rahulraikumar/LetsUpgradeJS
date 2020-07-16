@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2-Assignment2</title>
+</head>
+<body>
+    <h1>Explain with examples the remaining methods of String and Array</h1>
+    <script src="scripts/Assignment2.js"></script>
+</Br>
+</Br>
+    <h2>Below methods can extract string's part:</h2>
+    <h3>
+        <pre>
+            
+   1. slice(start, end) --> parameters are the indexes
+  
+   Example:
+   let str= "I am a letsUpgrade student!!!";
+   let slicedStr = str.slice(7,18); 
+   let negSlcStr = str.slice(-3,-1);
+
+
+   2. substring(start, end) -->Similar to slice()
+
+   Example:
+   let subString = str.substring(19,26); //substr doesnt take negative parameters
+
+   
+   3. substr(start, length) --> second parameter is the length of the extracted part
+
+   Example:
+   let subStr = str.substr(11, 7);
+        </pre>
+    </h3>
+
+   <h2>replace() will replace a part of the string</h2>
+    <h3>
+        <pre>
+    replace(old part, new part)
+
+    Example:
+    let replacedStr = str.replace("student", "rowdy");
+    console.log("replacedStr = ", replacedStr);
+        </pre>
+    </h3>
+
+    <h2>trim() --> it removes white spaces from both sides of a string</h2>
+    <h3>
+        <pre>
+    let str1 = "      Hi people!!!     "
+    let trimmedStr = str1.trim();
+        </pre>
+    </h3>
+
+
+       
+
+
+</body>
+</html>
