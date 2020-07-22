@@ -1,0 +1,33 @@
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#btn {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  color: blue;
+  height: 30px;
+}
+
+.light {
+  background-color: aqua;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: aqua;
+}
+
+.light #btn {
+    background-color: black;
+    color: aqua;
+}
+
+.dark #btn {
+    background-color: aqua;
+    color: black;
+}
