@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#main {
+  margin: 10%;
+  width: 80%;
+  height: 50%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  background-color: skyblue;
+  overflow: auto;
+  border-radius: 50px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.9);
+}
+
+p {
+  margin-top: 35px;
+  font-size: 60px;
+  font-style: normal;
+  color: purple;
+}
+
+#quoteDisplay {
+  padding: 20px;
+  color: blue;
+  font-style: oblique;
+  font-size: 30px;
+}
+
+button {
+  padding: 10px 50px;
+  margin: 10px;
+  background-color: #73ad21;
+  font-weight: bold;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #65a807;
+  cursor: pointer;
+}
